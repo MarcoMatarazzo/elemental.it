@@ -1,0 +1,56 @@
+/* Make it boring */
+
+.green {
+    color: #cccccc;
+}
+
+.yellow {
+    color: #cccccc;
+}
+
+html, body, pre, code, kbd, samp {
+    font-size: 0.90em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img.picture {
+    content: url('images/marcomatarazzo.jpg')
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #273135;
+    color: white;
+}
+
+.corner-ribbon{
+    font-family: 'Press Start 2P';
+    font-size: 1em;    
+}

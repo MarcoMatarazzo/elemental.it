@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Pure JS still works, folks. -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script>
+    function getFragmentByName(name, url = window.location.href) {
+      // Yeah, I know, this would also trigger on ?not_boring_and_something_else. I don't really care :-)
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?]' + name),
+          results = regex.exec(url);
+      if (!results) return false;
+      return true;
+    }
+    var awesome = getFragmentByName('not_boring');
+
+    var nes_tag = document.createElement("link");
+    nes_tag.type = "text/css";
+    nes_tag.rel = "stylesheet";
+    nes_tag.href = "https://unpkg.com/nes.css@2.3.0/css/nes.min.css";
+
+    var fa_tag = document.createElement("link");
+    fa_tag.type = "text/css";
+    fa_tag.rel = "stylesheet";
+    fa_tag.href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+    var boring_tag = document.createElement("link");
+    boring_tag.type = "text/css";
+    boring_tag.rel = "stylesheet";
+    boring_tag.href = "boring.css";
+  </script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
+
+  <script> if (awesome) document.getElementsByTagName("head")[0].appendChild(nes_tag); </script>
+  <script> if (! awesome) document.getElementsByTagName("head")[0].appendChild(fa_tag); </script>
+
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <script> if (! awesome) document.getElementsByTagName("head")[0].appendChild(boring_tag); </script>
+
+  <title>Elemental - Marco Matarazzo</title>
+
+  <script>
+    window.onload = function() {
+      if (awesome) {
+        document.getElementById("ribbon").innerHTML = 'Back to boring';
+        document.getElementById("ribbon-anchor").href = '?boring';
+      } else {
+        document.getElementById("ribbon").innerHTML = 'Go 8 <span class="still-green">b</span><span class="still-yellow">i</span><span class="still-blue">t</span>';
+        document.getElementById("ribbon-anchor").href = '?not_boring';
+      }
+    }
+  </script>
+
+</head>
+<body>
+
+  <a id="ribbon-anchor" href=""><div id="ribbon" class="corner-ribbon"></div></a>
+
+  <div class="container">
+    <div class="row middle-xs">
+      <div class="col-xs-12">
+        <h1>Marco Matarazzo</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container inverted">
+    <div class="row center-xs">
+      <div class="col-xs-10 col-sm-6 start-xs">
+
+        <section>
+          <h2>Who am I?</h2>
+          <p>
+            My name is Marco Matarazzo, and I'm a <span class="green">System Architect</span>, a <span class="green">Developer</span>, an <span class="green">Entrepreneur</span> and a <span class="green">Game Lover</span>.
+          </p>
+          <p>
+            My work experience ranges from <span class="yellow">complex system design and administration</span> (Chorally.com, Musixmatch.com, Buongiorno.com) to <span class="yellow">technical team management</span> (Dada.eu, Play.me).
+            Through a long story of different activities, I learned how to tackle technical problems of various nature, and how to keep myself and my team focused on the important things.
+            I love when I can work to reduce the complexity of the systems I work with. I believe that reduced complexity can bring great benefit in any system, in many ways.
+          </p>
+          <p>
+            In my free time, I love to play games (roleplaying, board games and videogames), read comics, and keep me updated on everything that revolves around technology, gaming and game design. 
+            I designed and co-wrote Gates of Horizon, a (long gone, alas) 4x cross-platform videogame.
+            I write RPG adventures and play them as a Game Master with friends and guests in various RPG conventions. 
+            I love sci-fi, fantasy and everything in between. 
+            I try my best to find enough time to read books, alternating actual books and tech/game manuals.
+            I like the relaxing sensation that music can give, especially Irish or Celtic one.
+          </p>
+          <p>
+            I am a Geek: I love technological gadgets, and I love to hack with them, understanding their deeper rules, discovering how to use them in the best possible way, even beyond their creator's original intent.
+          </p>
+          <p>
+            I am an IRECA operator, and I try my best to bring a bit more healing in this world, and to make it a better place to live.
+          </p>
+        </section>
+
+      </div>
+      <div class="col-xs-10 col-sm-3 center-xs">
+
+        <section>
+          <img class="picture" alt="" />
+        </section>
+
+        <section class="icon-list">
+          <h2>More about me:</h2>
+          <a href="http://it.linkedin.com/in/marcomatarazzo" class="fa fa-linkedin linkedin nes-icon is-large"></a>
+          <a href="https://github.com/MarcoMatarazzo" class="fa fa-github github nes-icon is-large"></a>
+          <a href="http://twitter.com/elementalstorm"  class="fa fa-twitter twitter nes-icon is-large"></a>
+          <a href="http://www.facebook.com/marco.matarazzo" class="fa fa-facebook facebook nes-icon is-large"></a>
+        </section>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
