@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/elementalstorm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.elemental.it
+  * I am elementalstorm (https://keybase.io/elementalstorm) on keybase.
+  * I have a public key with fingerprint 5B26 9B0C 47C0 3C8A F003  E0C3 FA92 7373 9736 2C43
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c8e5baabb08188858c7e734a48c92fa239a099ffc22b7d72ad22aae66964349a0a",
+      "fingerprint": "5b269b0c47c03c8af003e0c3fa92737397362c43",
+      "host": "keybase.io",
+      "key_id": "fa92737397362c43",
+      "kid": "0101c8e5baabb08188858c7e734a48c92fa239a099ffc22b7d72ad22aae66964349a0a",
+      "uid": "17717b0ea35eed558cb19c61ff803019",
+      "username": "elementalstorm"
+    },
+    "service": {
+      "hostname": "www.elemental.it",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1616154151,
+  "expire_in": 157680000,
+  "prev": "0920d1c611921974552bdbf1cce33ddaa6a1028c1082949140e485a259ff74b2",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1QVFUYvgv4tXwMpkLFqHGZIaUF7vfHVtCkgTCgZjl8xnLuvWfhBrsLey+s
+iICSYSAkISJKDa0WkqhNiRnSCkEakDo55jhjIToxTH6Q1DRMCAPdy2i/+tk5P86c
+932e5zzvM6fe3xsxGh41KMpBxrTO8MNdAcl+8/2IUlRwSCWouRTNg/MHzJegolry
+ZAk1oxiO4SIHaQEAQcA4nOM4mhNZyJIUoDiRJ6yAIHmA8bzVKhKEwEosASSCAAAy
+DM9QJKU1AWpCrbI9BzoLnLJd1WRpgWB4ARMpVsRIkQNWDCMhJpJWwBMsyZI8SzKE
+SJEaMdeh6AzNnAAUGCU7tJp2sczb+w/8/+y7aF4OZ1mcFTAISBpCidakBJwXGdxq
+5TASw3kdqECnHdighob50AbtKshXVIfThpaZUK1XLItQj1ef5zHO5XJF/YuNklVN
+pcDpUB2iI1/r5qpqgWLW2WpJwTwcCpbHQhZBtktaohqjGDoV2WFHzbiGFFVZV8YZ
+bdMUTuMmFG4rkJ3QIusImmU4TFv6O7BY0HPiCUzCtUlwnsB5lqJpQpAEKy6KkCQl
+CQAG4BjBiTjGETzF4xQGKY4GBK3lxlICgeqzFdodqJnWfIIcTVKRc+xALXJCtMxY
+7UX6IAYjsjIo1CcjvMUvvvelmgnv2/1PfuECL/0LIsYlgU8qXv2ByIG6xgXq4dDu
+810lJaaajNWuE83xa8eGm5c37/sqLXMJvPnthjOddaM/pyTXv/ZLYGeZq70VjSv3
+rz+7r7Xxxtxf26+5NvntTU/d3vooZYWsIPfbJ5XicKvPyqQmd5yp9Pa9Iblk+m33
+iurKZYWA9o/5LfhM4LvZw8iHfktzkaX2OK/Giuk7Ha1dH7+QFRJjyHsx85WTQe3n
+e2JSfWd6kj2XWqIX79qdfGti4yXLg4pdcwnPphpjI+Y8IXvGvhyuKJvpWVWHT40O
+ls5sQ3/v/eJ6tWtqoGy2yvsqMR12eijW+8HYwNWjExs8hsATH92oZI4+s7Gzu9KG
+VvQFJ3/vd3G6e11uohT9yei5OwlCmk/4uS2n3Bf/+G5RW9U3g0PHG0cShocSstOi
+LkxMPr/w4eY9oUFIVcNs8NaUzwOO3G1KG8lovNl5bO/yCN/XT6m/rpm6nph4JHXH
+T7GZa06HDq4/gMn3iuqYyzuJKzn342Kf6k7vcJ7NnjgYOZOPKg+7Nm0duFaeG+1f
+PtVrEgyHsGbfxZ5Xe3k8pTDe3DA7y1xJihvvuHU57OuAQsNnJ20Jm22LGo55+p5u
+SU8xhqYm/llzoTasBg8JGD/03FvHkYW1zqR3xttefsPVZI5c/WNfx6T338NZ+3fM
+vtf2gTtnyL07sp8r3b8zyx3V5+n1U5G1k8tWHaaTGOOW2k9H/gE=
+=+lkt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/elementalstorm
+
+==================================================================
